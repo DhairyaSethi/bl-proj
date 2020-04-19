@@ -12,5 +12,5 @@ Run:
 - '/nodes/register' - to register new nodes in the form of URLs
 - '/nodes/resolve' - to resolve any conflict & ensure each node has correct chain
 
-#### Deoplyed [here](https://blproj.herokuapp.com/)
+#### Deployed [here](https://blproj.herokuapp.com/)
 [Reference](https://www.hamrodev.com/en/blog/tutorials/javascript-blockchain)
