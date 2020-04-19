@@ -4,6 +4,11 @@ let app=express();
 const Blockchain = require("./blockchain"); 
 const { uuid } = require('uuidv4'); 
 
+const port = process.env.PORT || 3000;
+app.listen( () => { 
+    console.log('server running on port ', port) 
+} )
+
 let nodeId = uuid();
 app.get('/', (req,res) => {
     res.send(JSON.stringify(Blockchain.chain));
