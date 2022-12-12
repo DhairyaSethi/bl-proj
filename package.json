@@ -18,7 +18,7 @@
   "homepage": "https://github.com/DhairyaSethi/bl-proj#readme",
   "dependencies": {
     "crypto": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "uuidv4": "^6.0.7"
   }
 }
